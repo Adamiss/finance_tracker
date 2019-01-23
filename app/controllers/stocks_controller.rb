@@ -5,7 +5,7 @@ class StocksController < ApplicationController
       @stock =  Stock.new_from_lookup(params[:stock])
       if @stock
         respond_to do |format|
-          fortmat.js {render partial: "users/result"}
+          format.js {render partial: "users/result"}
         end
       else
         respond_to do |format|

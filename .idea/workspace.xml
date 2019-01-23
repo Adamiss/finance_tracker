@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e367f2b2-44a0-4a76-9c08-42efc113cfd9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/stocks_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/stocks_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/_results.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/_result.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/my_portofolio.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/my_portofolio.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -25,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/stocks_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -73,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/_result.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -343,12 +340,12 @@
       <workItem from="1548080980669" duration="138000" />
       <workItem from="1548081154599" duration="2410000" />
       <workItem from="1548160580375" duration="4062000" />
-      <workItem from="1548248666462" duration="560000" />
+      <workItem from="1548248666462" duration="745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22447000" />
+    <option name="totallyTimeSpent" value="22632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -367,7 +364,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4301676" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4301676" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32960895" />
@@ -538,17 +535,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/stocks_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/_result.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/stocks_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
