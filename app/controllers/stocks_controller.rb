@@ -5,15 +5,20 @@ class StocksController < ApplicationController
       @stock =  Stock.new_from_lookup(params[:stock])
       if @stock
         respond_to do |format|
-          fortmat.js {render partial: "users/results" }
+          fortmat.js {render partial: "users/result"}
         end
       else
-        flash[:danger] = "You have entered an incorrect symbol"
-        redirect_to my_portofolio_path
+        respond_to do |format|
+          flash.now[:danger] = "You have entered an incorrect symbol"
+          format.js {render partial: "users/result"}
+        end
+
       end
     else
-      flash[:danger] = "You have entered an empty string"
-      redirect_to my_portofolio_path
+      respond_to do |format|
+        flash.now[:danger] = "You have entered an empty search"
+        format.js {render partial: "users/result"}
+      end
     end
 
   end
