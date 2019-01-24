@@ -1,5 +1,6 @@
 class StocksController < ApplicationController
 
+
   def search
     if params[:stock].blank?
       flash.now[:danger] = "You have entered an empty search"
