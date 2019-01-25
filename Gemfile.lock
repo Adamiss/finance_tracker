@@ -277,7 +277,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   selenium-webdriver
   sqlite3!
-  stock_quote (~> 2.0.0)
+  stock_quote
   turbolinks (~> 5)
   twitter-bootstrap-rails
   tzinfo-data
